@@ -1,0 +1,9 @@
+{
+	"name": "Game hub React app",
+	"short_name": "Game hub",
+	"icons": [],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#ffffff",
+	"background_color": "#ffffff"
+}

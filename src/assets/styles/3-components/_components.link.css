@@ -1,0 +1,33 @@
+/*----------------------------------------*\
+	#LINK
+\*----------------------------------------*/
+
+/* *
+ * Primary
+ */
+.c-link-primary {
+	text-decoration: underline;
+	text-underline-offset: 6px;
+
+	color: var(--color-text-primary);
+}
+
+.c-link-primary:hover,
+.c-link-primary:focus {
+	color: var(--color-text-primary);
+}
+
+/* *
+ * Secondary
+ */
+.c-link-secondary {
+	text-decoration: underline;
+	text-underline-offset: 6px;
+
+	color: var(--color-text-red);
+}
+
+.c-link-secondary:hover,
+.c-link-secondary:focus {
+	color: var(--color-text-red);
+}

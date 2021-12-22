@@ -1,0 +1,21 @@
+/* *
+ * 1. The parent "#root" element has defined itself as a flex [column] container
+ *    so this line ensures a full height and width for the app.
+ * 2. Setting max width for the whole app.
+ * 3. Theme background color for the whole app.
+ */
+
+.App {
+	flex-grow: 1; /* [1] */
+
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+}
+
+.App > * {
+	max-width: 1366px; /* [2] */
+
+	background-color: var(--color-bg); /* [3] */
+}

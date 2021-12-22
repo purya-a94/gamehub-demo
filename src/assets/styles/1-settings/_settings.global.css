@@ -1,0 +1,30 @@
+/*----------------------------------------*\
+	#GLOBAL
+\*----------------------------------------*/
+
+/*
+ *	NOTE:
+ *  1.	Base font-size calculation is roughly based on a 1366px viewport.
+ */
+:root {
+	/* #FONT
+	====================================================================== */
+
+	--brand-font: 'Roboto';
+
+	--base-font: var(--brand-font), -apple-system, BlinkMacSystemFont,
+		'Segoe UI', 'Roboto', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', arial,
+		sans-serif;
+
+	/* [1] */
+	--base-font-size: clamp(14px, 1.2vw, 16px);
+
+	/* #BREAKPOINTS (for reference only)
+	====================================================================== */
+
+	--bp-2x-small: 360px;
+	--bp-x-small: 576px;
+	--bp-small: 768px;
+	--bp-medium: 992px;
+	--bp-large: 1200px;
+}

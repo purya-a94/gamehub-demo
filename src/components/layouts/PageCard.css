@@ -1,0 +1,10 @@
+.PageCard {
+	flex-grow: 1;
+}
+
+.PageCard__body {
+	display: flex;
+	flex-direction: column;
+
+	padding: 0 2rem 1rem;
+}

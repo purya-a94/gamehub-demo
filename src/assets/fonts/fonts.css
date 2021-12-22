@@ -1,0 +1,47 @@
+/*------------------------------------*\
+	#FONTS
+\*------------------------------------*/
+
+/* *
+   * NOTE:
+   * 1.	'EOT' formats are not included in order to reduce loading times,
+   * 	though as a result, we don't support IE8 and older browsers.
+   * 2.	Out of 5 different weights of "IRANSansWeb" we only use 3;
+   * 	"Light" and "Black" are removed.
+ */
+
+/* #IRANSansWeb
+====================================================================== */
+
+/* Normal */
+@font-face {
+	font-family: IRANSansWeb;
+	font-style: normal;
+	font-weight: normal;
+	src: url('./IranSans/woff2/IRANSansWeb.woff2') format('woff2'),
+		url('./IranSans/woff/IRANSansWeb.woff') format('woff'),
+		url('./IranSans/ttf/IRANSansWeb.ttf') format('truetype');
+	font-display: swap;
+}
+
+/* Medium */
+@font-face {
+	font-family: IRANSansWeb;
+	font-style: normal;
+	font-weight: 500;
+	src: url('./IranSans/woff2/IRANSansWeb_Medium.woff2') format('woff2'),
+		url('./IranSans/woff/IRANSansWeb_Medium.woff') format('woff'),
+		url('./IranSans/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+	font-display: swap;
+}
+
+/* Bold */
+@font-face {
+	font-family: IRANSansWeb;
+	font-style: normal;
+	font-weight: bold;
+	src: url('./IranSans/woff2/IRANSansWeb_Bold.woff2') format('woff2'),
+		url('./IranSans/woff/IRANSansWeb_Bold.woff') format('woff'),
+		url('./IranSans/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+	font-display: swap;
+}

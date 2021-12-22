@@ -1,0 +1,28 @@
+/*----------------------------------------*\
+	#LINKS
+\*----------------------------------------*/
+
+a {
+	display: inline-block;
+
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	cursor: pointer;
+	transition: background-color 0.1s, box-shadow 0.1s, transform 0.1s;
+
+	color: inherit;
+}
+
+a:hover {
+	color: inherit;
+}
+
+a:visited,
+a:active {
+	text-decoration: initial;
+}

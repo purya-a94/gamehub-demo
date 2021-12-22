@@ -1,0 +1,27 @@
+.trinity-loader circle {
+	fill: transparent;
+	stroke: inherit;
+	stroke-width: inherit;
+	stroke-linecap: round;
+
+	transform-origin: center;
+	animation-name: trinity-animation;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes trinity-animation {
+	0% {
+		stroke-dasharray: 1 98;
+		stroke-dashoffset: -105;
+	}
+	50% {
+		stroke-dasharray: 80 10;
+		stroke-dashoffset: -160;
+	}
+	100% {
+		stroke-dasharray: 1 98;
+		stroke-dashoffset: -300;
+	}
+}

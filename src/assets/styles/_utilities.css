@@ -1,0 +1,50 @@
+/*------------------------------------*\
+	#UTILITIES
+\*------------------------------------*/
+
+/**	Text color
+	====================================================================== */
+
+.u-textColor-main {
+	color: var(--color-text);
+}
+
+.u-textColor-primary {
+	color: var(--color-text-primary);
+}
+
+.u-textColor-sub {
+	color: var(--color-text-primary);
+}
+
+.u-textColor-green {
+	color: var(--color-text-green);
+}
+
+.u-textColor-red {
+	color: var(--color-text-red);
+}
+
+.u-textColor-white {
+	color: var(--color-text-white);
+}
+
+/**	Border color
+	====================================================================== */
+
+.u-borderColor-red {
+	border-color: var(--color-border-red);
+}
+
+/**	Misc
+	====================================================================== */
+
+.u-remove-btn-focus-shadow:focus {
+	box-shadow: none;
+}
+
+.u-overflow-ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
