@@ -7,16 +7,22 @@ import { Redirect } from 'react-router-dom'
  */
 
 const protectedRoutes = [
+	// Profile
+	{
+		path: '/profile',
+		component: lazy(() => import('routes/root/Profile.route')),
+		exact: true,
+	},
 	// Home
 	{
-		path: '/home',
-		component: lazy(() => import('routes/app/Home.route')),
+		path: '/dashboard',
+		component: lazy(() => import('routes/root/Dashboard.route')),
 		exact: true,
 	},
 	// Index
 	{
 		path: '/',
-		component: () => <Redirect to="/home" />,
+		component: () => <Redirect to="/dashboard" />,
 		exact: true,
 	},
 	// 404 - not found

@@ -6,7 +6,7 @@ import { signUp as authSignUp } from 'app/services/auth.service'
 import { login } from 'app/redux/slices/userSlice'
 import { rgx_emailValidator } from 'app/helpers/helpers'
 import { PATHS } from 'app/helpers/constants'
-import Spinner from 'react-bootstrap/Spinner'
+import Spinner from 'components/spinner/Spinner'
 import './SignUp.route.css'
 
 function SignUp() {
@@ -144,9 +144,10 @@ function SignUp() {
 					>
 						{signUpState.loading && (
 							<Spinner
-								animation="border"
-								variant="light"
-								size="sm"
+								height="17"
+								width="17"
+								color="var(--color-white)"
+								strokeWidth="12px"
 								className="me-2"
 							/>
 						)}

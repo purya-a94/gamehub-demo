@@ -9,21 +9,28 @@ function Header() {
 			{/* =============
 				Logo
 			*/}
-			<a href={PATHS.home} className="Header__logo">
-				{/* <img src={IMG_LOGO} alt="Game hub logo" /> */}
-			</a>
+			<Link to={PATHS.dashboard} className="Header__logo">
+				<img src="" alt="Game hub logo" />
+			</Link>
 
 			{/* =============
 				Navbar
 			*/}
 			<ul className="Header__navbar">
 				<li className="Header__navbar-item">
-					<Link to={PATHS.login}>Link I</Link>
+					<Link to={PATHS.dashboard}>Dashboard</Link>
 				</li>
-				<li className="Header__navbar-item">
+				{/* <li className="Header__navbar-item">
 					<Link to={PATHS.signUp}>Link II</Link>
-				</li>
+				</li> */}
 			</ul>
+
+			{/* =============
+				Navbar
+			*/}
+			<Link to={PATHS.profile} className="btn Header__profile-btn">
+				This Nerd's Profile
+			</Link>
 		</nav>
 	)
 }

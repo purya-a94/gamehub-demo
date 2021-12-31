@@ -1,0 +1,33 @@
+.Profile {
+	flex-grow: 1;
+
+	display: flex;
+	flex-direction: column;
+
+	padding: 1.5rem 2rem;
+}
+
+.Profile__page-header {
+	margin-bottom: 2rem;
+	font-size: 2rem;
+}
+
+.Profile_page-error {
+	margin-bottom: 1rem;
+
+	color: var(--color-text-red);
+}
+
+.Profile__form {
+	padding-left: 1rem;
+}
+
+.Profile__form-field {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.Profile__form-field > label {
+	min-width: 15ch;
+}

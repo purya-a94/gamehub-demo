@@ -17,7 +17,7 @@ function NoMatchRoute() {
 				onClick={() => history.push('/')}
 				className="btn c-btn-primary px-4"
 			>
-				Take me home
+				Take me back
 			</button>
 		</section>
 	)

@@ -11,7 +11,7 @@ import { ErrorBoundary } from 'react-error-boundary'
 import ErrorFallback from 'components/ErrorFallback'
 import PageLoadingFallback from 'components/PageLoadingFallback'
 
-const AppEntry = lazy(() => import('routes/app/AppEntry.route'))
+const AppEntry = lazy(() => import('routes/AppEntry.route'))
 const Login = lazy(() => import('routes/public/Login.route'))
 const SignUp = lazy(() => import('routes/public/SignUp.route'))
 const NoMatchRoute = lazy(() => import('routes/public/404.route'))

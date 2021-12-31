@@ -1,5 +1,5 @@
 import React from 'react'
-import Spinner from 'react-bootstrap/Spinner'
+import Spinner from 'components/spinner/Spinner'
 
 function AsyncDataContainer({ isPending, spinnerClassName, children }) {
 	return (
@@ -9,7 +9,7 @@ function AsyncDataContainer({ isPending, spinnerClassName, children }) {
 					className={`d-flex justify-content-center
 								w-100 h-100 ${spinnerClassName ? spinnerClassName : ''}`}
 				>
-					<Spinner animation="border" variant="primary" />
+					<Spinner height='25' width='25' />
 				</div>
 			) : (
 				children

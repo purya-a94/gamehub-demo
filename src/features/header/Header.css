@@ -12,9 +12,9 @@
 	display: flex;
 	align-items: center;
 
-	padding-left: 1.625rem;
-	margin-left: 1.625rem;
-	border-left: 2px solid var(--color-border-gray-lightest);
+	margin-right: 1.625rem;
+	padding-right: 1.625rem;
+	border-right: 2px solid var(--color-border-gray-lightest);
 }
 
 .Header__logo img {
@@ -23,6 +23,7 @@
 
 .Header__navbar {
 	display: flex;
+	gap: 1.5rem;
 
 	padding: 0;
 	margin: 0;
@@ -30,21 +31,10 @@
 }
 
 .Header__navbar-item {
-	margin-left: 1.5rem;
 }
 
-.Header__search {
-	margin-right: auto;
-	margin-left: 2rem;
-}
-
-.Header__account-btn {
-	display: flex;
-	align-items: center;
-
-	padding: 0.5rem 0;
-
-	color: var(--color-text);
+.Header__profile-btn {
+	margin-left: auto;
 }
 
 .Header__menu-btn {
@@ -53,20 +43,12 @@
 	display: none;
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 768px) {
 	.Header__logo {
-		border-left-color: transparent;
+		border-right-color: transparent;
 	}
 
 	.Header__navbar {
-		display: none;
-	}
-
-	.Header__search {
-		display: none;
-	}
-
-	.Header__account-btn {
 		display: none;
 	}
 
