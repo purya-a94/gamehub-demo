@@ -9,7 +9,7 @@ import { rgx_emailValidator } from 'app/helpers/helpers'
 import { PATHS } from 'app/helpers/constants'
 // import AsyncDataContainer from 'components/layouts/AsyncDataContainer'
 import Spinner from 'components/spinner/Spinner'
-import './Profile.route.css'
+import './Profile.route.scss'
 
 function Profile() {
 	// const dispatch = useDispatch()

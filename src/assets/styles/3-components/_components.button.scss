@@ -1,0 +1,37 @@
+/*----------------------------------------*\
+	#BUTTON
+\*----------------------------------------*/
+
+/* *
+ * Primary
+ */
+.c-btn-primary {
+	border-radius: 10px;
+
+	background-color: $color-btn-primary;
+	color: $color-text-white;
+}
+
+.c-btn-primary:hover,
+.c-btn-primary:focus {
+	background-color: $color-btn-primary-hover;
+	color: $color-text-white;
+}
+
+/* *
+ * Primary outline
+ */
+.c-btn-outline-primary {
+	border: 1px solid $color-border-primary;
+	border-radius: 10px;
+
+	background-color: $color-btn-primary-outline;
+	color: $color-text-primary;
+}
+
+.c-btn-outline-primary:hover,
+.c-btn-outline-primary:focus {
+	border: 1px solid $color-border-primary-dark;
+
+	color: $color-text-primary-dark;
+}

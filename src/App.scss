@@ -17,5 +17,5 @@
 .App > * {
 	max-width: 1366px; /* [2] */
 
-	background-color: var(--color-bg); /* [3] */
+	background-color: $color-bg; /* [3] */
 }

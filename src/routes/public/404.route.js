@@ -2,7 +2,7 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
 // Assets and styles
-import './404.route..css'
+import './404.route.scss'
 
 function NoMatchRoute() {
 	const history = useHistory()

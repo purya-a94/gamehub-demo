@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { PATHS, BREADCRUMB_PATH_MAP } from 'app/helpers/constants'
-import './Breadcrumb.css'
+import './Breadcrumb.scss'
 
 function Breadcrumb() {
 	const location = useLocation()

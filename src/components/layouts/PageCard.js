@@ -1,5 +1,5 @@
 import React from 'react'
-import './PageCard.css'
+import './PageCard.scss'
 
 function PageCard({ children }) {
 	return <div className="PageCard">{children}</div>

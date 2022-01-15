@@ -1,0 +1,58 @@
+/*----------------------------------------*\
+	#COLORS
+/*----------------------------------------*\
+
+/* Brand */
+
+$color-primary: #43b5f6;
+/* https://maketintsandshades.com/#43b5f6 */
+$color-primary-light-10: #56bcf7;
+$color-primary-light-20: #69c4f8;
+$color-primary-light-30: #7bcbf9;
+$color-primary-light-40: #8ed3fa;
+$color-primary-dark-10: #3ca3dd;
+$color-primary-dark-20: #3691c5;
+$color-primary-dark-30: #2f7fac;
+$color-primary-dark-40: #286d94;
+
+/* Tokens */
+
+$color-white: #ffffff;
+$color-blue-navy-dark: #000034;
+$color-gray: #80858f;
+$color-gray-light: #cccccc;
+$color-gray-lighter: #efefef;
+$color-gray-lightest: #f4f7fa;
+$color-red: #ff5f58;
+$color-green: #4caf50; /* Material - Green 500 */
+
+/* Background */
+
+$color-bg: $color-white;
+$color-bg-primary: $color-primary;
+$color-bg-gray-light: $color-gray-light;
+$color-bg-gray-lighter: $color-gray-lighter;
+$color-bg-gray-lightest: $color-gray-lightest;
+$color-bg-red: $color-red;
+
+/* Text */
+
+$color-text: $color-blue-navy-dark;
+$color-subtext: $color-gray;
+$color-text-primary: $color-primary;
+$color-text-primary-dark: $color-primary-dark-20;
+$color-text-white: $color-white;
+$color-text-red: $color-red;
+$color-text-green: $color-green;
+
+/* Borders */
+$color-border-primary: $color-primary;
+$color-border-primary-dark: $color-primary-dark-20;
+$color-border-gray-light: $color-gray-light;
+$color-border-gray-lighter: $color-gray-lighter;
+$color-border-gray-lightest: $color-gray-lightest;
+$color-border-red: $color-red;
+
+// :export {
+// 	primary: $color-primary;
+// }

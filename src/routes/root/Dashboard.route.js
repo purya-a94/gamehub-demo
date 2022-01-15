@@ -1,5 +1,5 @@
 import React from 'react'
-import './Dashboard.route.css'
+import './Dashboard.route.scss'
 
 function Dashboard() {
 	return <div className="Dashboard">Dashboard will be here!</div>

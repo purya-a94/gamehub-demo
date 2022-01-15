@@ -7,7 +7,7 @@ import { login } from 'app/redux/slices/userSlice'
 import { rgx_emailValidator } from 'app/helpers/helpers'
 import { PATHS } from 'app/helpers/constants'
 import Spinner from 'components/spinner/Spinner'
-import './Login.route.css'
+import './Login.route.scss'
 
 function Login() {
 	const dispatch = useDispatch()

@@ -11,7 +11,7 @@ import Header from 'features/header/Header'
 import PageLoadingFallback from 'components/PageLoadingFallback'
 import PageCard from 'components/layouts/PageCard'
 import protectedRoutes from 'routes/protected-routes'
-import './AppEntry.route.css'
+import './AppEntry.route.scss'
 
 function AppEntry({ isAuthenticated }) {
 	// const dispatch = useDispatch()

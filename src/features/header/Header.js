@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { PATHS } from 'app/helpers/constants'
-import './Header.css'
+import './Header.scss'
 
 function Header() {
 	return (

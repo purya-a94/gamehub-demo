@@ -6,7 +6,7 @@
  * TABLE OF CONTENTS
  * 
  * 00. FONT-FACES
- * fonts.css..............Locally-hosted fonts definition.
+ * Fonts..................Locally-hosted fonts definition.
  * 
  * 01. SETTINGS
  * Global.................Project-specific, globally available settings.
@@ -28,28 +28,28 @@
 /* 00. FONT-FACES
    ====================================================================== */
 
-@import url('../fonts/fonts.css');
+@use '../fonts/fonts.css';
 
 /* 01. SETTINGS
    ====================================================================== */
 
-@import url('./1-settings/_settings.global.css');
-@import url('./1-settings/_settings.colors.css');
+@use './1-settings/_settings.global.scss';
+@use './1-settings/_settings.colors.scss';
 
 /* 02. ELEMENTS
    ====================================================================== */
 
-@import url('./2-elements/_elements.page.css');
-@import url('./2-elements/_elements.links.css');
+@use './2-elements/_elements.page.scss';
+@use './2-elements/_elements.links.scss';
 
 /* 03. COMPONENTS
    ====================================================================== */
 
-@import url('./3-components/_components.button.css');
-@import url('./3-components/_components.link.css');
-@import url('./3-components/_components.input.css');
+@use './3-components/_components.button.scss';
+@use './3-components/_components.link.scss';
+@use './3-components/_components.input.scss';
 
 /* 04. UTILITIES
 ====================================================================== */
 
-@import url('./_utilities.css');
+@use './_utilities.scss';

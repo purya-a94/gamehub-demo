@@ -1,10 +1,12 @@
 import React from 'react'
-import './Spinner.css'
+import Vars from 'assets/styles/1-settings/_settings.colors.scss'
+import './Spinner.scss'
 
 function Spinner({
 	height = '100%',
 	width = '100%',
-	color = 'var(--color-primary)',
+	// color = 'var(--color-primary)',
+	color = Vars.primary,
 	strokeWidth = '7px',
 	className = '',
 }) {
